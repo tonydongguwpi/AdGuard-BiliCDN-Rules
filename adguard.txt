@@ -1,0 +1,16 @@
+# 屏蔽 Bilibili 低质量 PCDN/MCDN 域名
+||mcdn.bilivideo.cn^$important
+||*.mcdn.bilivideo.cn^$important
+||szbdyd.com^$important
+||*.szbdyd.com^$important
+||bilivideo.com/v1/resource^$important
+||[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}:[0-9]{1,5}/v1/resource^$important
+
+# 屏蔽京东云 MCDN（假设域名为 jdcloud*.com/cdn/ 等，需根据实际补充）
+||jdcloudcdn.com^$important
+||*.jdcloudcdn.com^$important
+
+# 可选：强制使用高质量 Mirror CDN（替换为阿里云/腾讯云等）
+@@||upos-sz-mirrorali.bilivideo.com^$important
+@@||upos-sz-mirrorcos.bilivideo.com^$important
+@@||upos-sz-mirrorhw.bilivideo.com^$important
