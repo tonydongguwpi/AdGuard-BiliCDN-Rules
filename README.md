@@ -20,4 +20,4 @@
 ### 1. AdGuard Home 用户  
 将以下规则添加到 **自定义过滤列表**：  
 ```plaintext
-https://raw.githubusercontent.com/tonydong/AdGuard-BiliCDN-Rules/adguard.txt  
+[https://raw.githubusercontent.com/tonydong/AdGuard-BiliCDN-Rules/adguard.txt](https://raw.githubusercontent.com/tonydongguwpi/AdGuard-BiliCDN-Rules/refs/heads/main/adguard.txt)  
